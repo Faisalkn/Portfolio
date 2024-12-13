@@ -1,0 +1,77 @@
+.experiences-container {
+  padding: 2rem;
+  background-color: var(--experience-background); 
+  color: var(--experience-text-color); 
+}
+
+.section-title {
+  font-size: 2rem;
+  text-align: center;
+  margin-bottom: 2rem;
+  color: var(--experience-text-color);
+}
+
+.experiences-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: center;
+}
+
+.experience-card {
+  background-color: var(--experience-card-background); 
+  color: var(--experience-text-color);
+  border: 1px solid var(--experience-border-color); 
+  border-radius: 8px;
+  padding: 1rem;
+  text-align: center;
+  width: 300px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.experience-logo {
+  width: 80px;
+  height: auto;
+  margin-bottom: 1rem;
+}
+
+.experience-card h3 {
+  font-size: 1.25rem;
+  margin-bottom: 0.5rem;
+  color: var(--experience-text-color); 
+}
+
+.experience-role {
+  font-size: 1rem;
+  font-weight: bold;
+  color: var(--experience-text-color); 
+  margin-bottom: 0.5rem;
+}
+
+
+.experience-card p {
+  font-size: 0.95rem;
+  color: var(--experience-text-color); 
+  margin-bottom: 0.5rem;
+}
+
+
+.experience-date {
+  font-style: italic;
+  color: var(--experience-text-color); 
+}
+
+
+body[data-theme='light'] {
+  --experience-background: #fff; 
+  --experience-text-color: #000; 
+  --experience-border-color: #ddd; 
+  --experience-card-background: #fff;
+}
+
+body[data-theme='dark'] {
+  --experience-background: #222222; 
+  --experience-text-color: #f1f1f1; 
+  --experience-border-color: #444; 
+  --experience-card-background: #222222; 
+}
